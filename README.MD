@@ -97,6 +97,8 @@ linked to specific users. It should have three columns: id (which is of type ser
 post (of type varchar(255)), and user_fk (which is of type int, but is also a foreign key referencing the id column
 of the table site_user).
 
+
+
 Be sure that user_fk column should be an int foreign key that references the id column in the 
 site_user table. The table will look like this:
 
